@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            width: 150px;
+            display:inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1> Hotel Room Booking Form</h1>
+    <div>
+        <form style="background-color:burlywood" >
+            <fieldset> <legend> enter the details</legend>
+            <label>Full Name</label> <input type="text" name="full_name" placeholder="enter name"><br>
+            <label>Email</label><input type="text" name="email" placeholder="enter email"><br>
+            <label>Check in Date</label><input type="date"><br>
+            <label>Check out Date</label><input type="date"><br>
+            <label>room type</label><select name="type_of_room" id="room_type">
+                <option value="select room">Select room</option>
+                <option value="single bed room">Single bed room</option>
+                <option value="double bed room">Double bed room</option>
+                <option value="multi_room"> Multi bed room</option>
+            </select><br>
+            <label>Number of Guests</label><input type="text" name="no._of_guest" placeholder="enter number  of guest"><br>
+            <p style="margin-top: 0px; margin-bottom: 0px;"><b> special request</b></p><br>
+            <textarea name="special request" value="special req" placeholder="enter special request" rows="10" cols="50" ></textarea>
+            <br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
