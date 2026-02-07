@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            width:100px;
+            display:inline-block;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>Student Registration Form</h1>
+    <div>
+        <form style="background-color: deepskyblue;">
+            <feildset><legend> Enter your details</legend>
+                <label>Full name</label><input type="text" name="f_name" placeholder="enter your full name" required><br>
+                <label>Email</label><input type="email" name="email" placeholder="enter valid email address" required><br>
+                <label> Password</label><input type="text" name="password" placeholder="Enter password" required><br>
+                <label>Gender</label><input type="radio" name="gender" id="male">Male
+                <input type="radio" name="gender" id="female">Female
+                <input type="radio" name="gender" id="other">Other<br>
+                <label>course</label><select name="course" id="course">
+                    <option value="Select course" id="select">--Select course--</option>
+                    <option value="btech">Btech</option>
+                    <option value="Mtech">Mtech</option>
+                    <option value="bca">Bca</option>
+                    <option value="mca">Mca</option>
+
+                </select><br>
+                <label> Contact no:</label><input type="text" name="num" placeholder="enter your number" maxlength="10"><br>
+                <label>Address</label><br>
+                <textarea name="address" placeholder="enter your address" rows="10" cols="50"></textarea><br>
+                <input type="submit" value="register">
+                <input type="reset" value="clear">
+                </feildset>
+
+
+
+
+            </feildset>
+        </form>
+    </div>
+</body>
+</html>
+
+
