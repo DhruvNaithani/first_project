@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .product {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .product h3 {
+            margin: 12px 0 6px;
+            color: #333;
+        }
+
+        .product p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #2c7be5;
+            margin: 10px 0;
+        }
+
+        .product button {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 6px;
+            background: #2c7be5;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .product button:hover {
+            background: #1a5fd0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Our Products</h1>
+
+    <div class="products">
+        <div class="product">
+            <img src="https://i.ytimg.com/vi/_ph7TzyW318/maxresdefault.jpg" alt="Product 1">
+            <h3>Product One</h3>
+            <p>Simple and useful product description.</p>
+            <div class="price">$25</div>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img src="https://www.tomorrowsworldtoday.com/wp-content/uploads/2023/01/Image3-26.jpg" alt="Product 2">
+            <h3>Product Two</h3>
+            <p>High quality product for daily use.</p>
+            <div class="price">$40</div>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img src="https://lucidica.co.uk/wp-content/uploads/2016/12/Fotolia_145960880_Subscription_Monthly_M.jpg" alt="Product 3">
+            <h3>Product Three</h3>
+            <p>Modern design with great features.</p>
+            <div class="price">$30</div>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="product">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/046/883/763/small_2x/minimalist-image-of-a-small-desktop-loudspeaker-designed-for-computer-setups-showing-subtle-design-elements-and-smooth-contours-isolated-on-a-white-background-for-tech-product-c-free-photo.jpg" alt="Product 4">
+            <h3>Product Four</h3>
+            <p>Affordable and reliable product.</p>
+            <div class="price">$20</div>
+            <button>Buy Now</button>
+        </div>
+    </div>
+
+</body>
+</html>
