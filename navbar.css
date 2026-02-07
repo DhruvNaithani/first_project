@@ -1,0 +1,35 @@
+/* NAVIGATION (APPLE-STYLE MINIMAL) */
+.header {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    z-index: 100;
+    padding: 15px 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin-right: 25px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #111;
+    font-size: 1rem;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+.nav-links a:hover {
+    background: #f0f0f0;
+}
